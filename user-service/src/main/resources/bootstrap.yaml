@@ -1,0 +1,8 @@
+#Quitamos el server-port porque se configuro desde la nube
+spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      enabled: true
+      uri: htttp://localhost:8081
