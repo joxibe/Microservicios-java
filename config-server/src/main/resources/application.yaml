@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          #cuando se trabajo con yaml se debe dejar espacio despues de los :
-          default-label: config-server
+          #rama de github
+          default-label: eureka
           uri: https://github.com/joxibe/Microservicios-java
           search-paths: config-data
   application:
