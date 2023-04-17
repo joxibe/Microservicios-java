@@ -1,4 +1,4 @@
-package com.microservicios.carservice.entity;
+package com.tutorial.carservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,19 +10,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-@Data   //para constructores
-@NoArgsConstructor //constructor sin argumentos
-@AllArgsConstructor  //constructor con argumentos
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Car {
-
-    //Lombok
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String brand;
     private String model;
-
     private int userId;
-
 }

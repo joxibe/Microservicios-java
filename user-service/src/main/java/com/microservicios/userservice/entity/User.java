@@ -1,24 +1,23 @@
-package com.microservicios.userservice.entity;
+package com.tutorial.userservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
-@Data   //para constructores
-@NoArgsConstructor //constructor sin argumentos
-@AllArgsConstructor  //constructor con argumentos
-//@Table(name = "users")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
-
-    //Lombok
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private String email;
-
 }
