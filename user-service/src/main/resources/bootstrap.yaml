@@ -1,4 +1,3 @@
-#Quitamos el server-port porque se configuro desde la nube
 spring:
   application:
     name: user-service
