@@ -1,5 +1,6 @@
 package com.microservicios.userservice.feignclients;
 
+
 import com.microservicios.userservice.model.Car;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +13,7 @@ import java.util.List;
 public interface CarFeignClients {
 
     @PostMapping
-     Car save(@RequestBody Car car);
+    Car save(@RequestBody Car car);
 
     @GetMapping("/byuser/{userId}")
     List<Car> getCars(@PathVariable("userId") int userId);

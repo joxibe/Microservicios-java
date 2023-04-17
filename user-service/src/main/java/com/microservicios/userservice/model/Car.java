@@ -1,4 +1,4 @@
-package com.tutorial.userservice.model;
+package com.microservicios.userservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

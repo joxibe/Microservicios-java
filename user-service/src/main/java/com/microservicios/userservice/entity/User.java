@@ -1,4 +1,4 @@
-package com.tutorial.userservice.entity;
+package com.microservicios.userservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

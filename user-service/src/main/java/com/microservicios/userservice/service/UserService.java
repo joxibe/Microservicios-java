@@ -1,11 +1,12 @@
-package com.tutorial.userservice.service;
+package com.microservicios.userservice.service;
 
-import com.tutorial.userservice.entity.User;
-import com.tutorial.userservice.feignclients.BikeFeignClient;
-import com.tutorial.userservice.feignclients.CarFeignClient;
-import com.tutorial.userservice.model.Bike;
-import com.tutorial.userservice.model.Car;
-import com.tutorial.userservice.repository.UserRepository;
+import com.microservicios.userservice.entity.User;
+import com.microservicios.userservice.feignclients.BikeFeignClient;
+import com.microservicios.userservice.feignclients.CarFeignClient;
+import com.microservicios.userservice.model.Bike;
+import com.microservicios.userservice.model.Car;
+
+import com.microservicios.userservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -13,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 @Service
 public class UserService {

@@ -1,6 +1,7 @@
-package com.tutorial.userservice.feignclients;
+package com.microservicios.userservice.feignclients;
 
-import com.tutorial.userservice.model.Bike;
+
+import com.microservicios.userservice.model.Bike;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

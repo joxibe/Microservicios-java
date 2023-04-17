@@ -1,6 +1,7 @@
-package com.tutorial.userservice.repository;
+package com.microservicios.userservice.repository;
 
-import com.tutorial.userservice.entity.User;
+
+import com.microservicios.userservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
