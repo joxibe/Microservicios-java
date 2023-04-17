@@ -1,7 +1,6 @@
-package com.microservicios.userservice.feignclients;
+package com.tutorial.userservice.feignclients;
 
-
-import com.microservicios.userservice.model.Car;
+import com.tutorial.userservice.model.Car;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
